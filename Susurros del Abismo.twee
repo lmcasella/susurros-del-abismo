@@ -1,0 +1,318 @@
+:: StoryTitle
+Susurros del Abismo
+
+
+:: StoryData
+{
+  "ifid": "BD48A4AE-0E9A-45E2-9F38-D5043D558D63",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "InicioTaberna",
+  "zoom": 1
+}
+
+
+:: \ CamaraAmuleto {"position":"962.5,1925","size":"100,100"}
+La ilusion parece casi real, pero te obligás a mantener la cordura. Te aferras a la receta en tu bolsillo.
+
+Apagas la linterna, cerras los ojos, y caminas con determinacion hacia la camara del amuleto mientras los susurros se vuelven cada vez mas fuertes.
+
+Dentro, flotando sobre un pedazo de roca volcanica descansa el amuleto. 
+
+[[Acercarte al pedestal y tomar el amuleto -> TocarAmuleto]]
+
+
+:: \ CaminoPestilente {"position":"800,1000","size":"100,100"}
+El olor te revuelve el estómago. A la luz de la linterna, descubrís los restos astillados de un viejo bote incrustado entre las rocas. Adentro, un cuerpo en descomposicion abraza un libro. 
+
+El murmullo que escuchabas al entrar ahora se siente más cerca, como si viniera del libro, o de detrás de las paredes.
+
+[[Agarrar el diario para buscar respuestas -> LeerDiario]]
+[[Ignorar el bote y seguir avanzando por el túnel -> LaCornisa]]
+
+
+:: \ CaminoSilencioso {"position":"1000,1000","size":"100,100"}
+Te adentrás en el túnel silencioso. Caminás con cuidado, pero algo se quiebra bajo tu bota. Bajás la linterna. Un hueso humano.
+
+De repente, un ruido viene desde el techo. Una criatura pálida, del tamaño de un oso pero con extremidades anfibias y sin ojos, cae cerca tuyo.
+
+[[Pegarte a la pared y contener la respiración -> Esconderse]]
+[[Agarrar una piedra y tirarla lejos para distraerla -> DistraerCriatura]]
+
+
+:: \ DistraerCriatura {"position":"1187.5,1125","size":"100,100"}
+Agarrás una piedra del suelo y la tiras hacia la oscuridad del túnel. 
+
+La bestia grita tan fuerte que casi te deja sordo, y salta hacia el ruido. Aprovechás la situacion para pasar corriendo, tropezando torpemente con los restos humanos.
+
+[[Avanzar hacia la tenue luz que se ve más adelante -> LaCornisa]]
+
+
+:: \ ElAltarProfano {"position":"900,1550","size":"100,100"}
+Salís del agua temblando. Al levantar la linterna, te das cuenta de que esto dejó de ser una cueva normal.
+
+Rodeando un arco de piedra, hay artefactos tallados con madera, adornados con espinas de peces abisales y craneos de criaturas que nunca antes viste. Alguien, o algo, adora lo que sea que duerme en este lugar. 
+
+[[Adentrarte en el pasillo de piedra -> LosSusurros]]
+
+
+:: \ ElLagoHelado {"position":"900,1425","size":"100,100"}
+El frío te corta la respiración. El agua te llega a la cintura, luego al pecho.
+
+De repente, un recuerdo. 
+La tormenta. El barco pesquero moviendose brutalmente. Las olas gigantezcas chocando violentamente contra el barco. Una sombra extrañas en el fondo del mar, y las manos de Sofia resbalándose del borde del barco. 
+
+.
+
+El agua helada de esta cueva se siente exactamente igual a la de esa noche. La culpa te apreta el pecho todavía mas que antes.
+
+[[Avanzar a la fuerza -> ElAltarProfano]]
+
+
+:: \ ElTrato {"position":"900,625","size":"100,100"}
+<img src="img/taberna.png" width="600">
+
+El hombre sonríe, ignorando por completo tus modales.
+
+—Mi nombre es Zej —dice con una voz extrañamente calmada—. Y sé exactamente quién sos, James. Sé lo desesperado que estás por salvar a tu esposa, y yo puedo ayudarte.
+
+Apretás los puños bajo la mesa. El instinto te pide romperle la botella en la cabeza, pero la falta de oro te obliga a escuchar.
+
+—Hay una pequeña isla no muy lejos de acá, pasando la Niebla Espesa. Si giras hacia el Sur la vas a encontrar. En su costa hay una cueva que solo queda expuesta con la marea baja. Adentro descansa un amuleto antiguo. Necesito que lo recuperes para mi colección. Te pagaré lo suficiente para curar a tu mujer y que no tengan que preocuparse por nada nunca mas.
+
+—Escuché de esa cueva, pero creí que era un mito. Dicen que nadie sale con vida...
+
+—La cueva rechaza a quienes no han sufrido los peligros del mar. Y por lo que sé...
+
+El estómago se te cierra. Recordas la sonrisa de Sofia. Sabés que este tipo esconde algo turbio y peligroso, pero rozás con los dedos la receta en tu bolsillo. No tenés otra opción.
+
+[[—Zarpo esta misma noche. -> ElViaje]]
+
+
+:: \ ElViaje {"position":"900,750","size":"100,100"}
+<img src="img/viaje.png" width="600">
+
+La tormenta no para. Las olas golpean el barco pesquero con una violencia que te recuerda a esa noche de hace años. El agua salada te empapa la cara mientras te aferrás al timón. 
+
+Logras cruzar la Niebla. Al Sur, a lo lejos, iluminada apenas por los relámpagos, se muestra la isla que te indicó Zej.
+
+Frenas el barco en la costa. Frente a vos, como las fauces abiertas de una bestia, está la entrada a la cueva.
+
+Agarrás tu vieja linterna a aceite y te bajás del barco.
+
+[[Entrar a la cueva -> EntradaCueva]]
+
+
+:: \ EntradaCueva {"position":"900,875","size":"100,100"}
+<img src="img/bifurcacion.png" width="600">
+
+El interior de la cueva es helado. El eco de tus botas sobre la piedra mojada se mezcla con el rugido del mar a tus espaldas. 
+
+Encendés la linterna a aceite. La luz amarillenta parpadea, revelando el sendero musgoso. El olor a humedad te recuerda a tu barco.
+
+Avanzás hasta que el túnel se ensancha de golpe. La luz de tu linterna apenas alcanza a mostrar el camino, pero notás que se divide.
+
+Te parás frente a ambos. El tunel de la izquierda emana una brisa de un aroma conocido. Algas podridas y... sangre. Desde la oscuridad, te parece escuchar un goteo constante y un murmullo.
+
+El túnel de la derecha es todo lo contrario. Un silencio absoluto y denso, como si el abismo mismo viviera ahi.
+
+Levantás la linterna y te preparas para adentrarte.
+
+[[Entrar al tunel pestilente -> CaminoPestilente]]
+[[Entrar al tunel silencioso -> CaminoSilencioso]]
+
+
+:: \ Esconderse {"position":"1062.5,1125","size":"100,100"}
+Te aferras a la pared, cerrando los ojos con fuerza y apretando los labios para no soltar el aire. La criatura se arrastra cerca.
+
+Se detiene frente a vos. Tu corazón late tan fuerte que tenes miedo de que pueda escucharlo. Después de unos segundos, la bestia pierde el interés y se escabulle por una grieta en la pared. Soltás el aire de golpe, temblando.
+
+[[Avanzar hacia la tenue luz que se ve más adelante -> LaCornisa]]
+
+
+:: \ FinAhogado {"position":"775,1925","size":"100,100"}
+La linterna cae de tus manos y caes de rodillas.
+
+—Perdon, todo fue mi culpa...
+
+La aparicion de Sofia sonríe y retrocede hacia un estanque profundo cercano. Ciego por el dolor, te arrastrás tras ella y entras al agua helada. Sofia se desvanece antes de que cierres los ojos por ultima vez.
+
+**FINAL 1: Ahogado en el Pasado**
+
+[[InicioTaberna]]
+
+
+:: \ FinalEntregar {"position":"837.5,2300","size":"100,100"}
+<img src="img/entregar.png" width="600">
+
+Cerrás los ojos, intentando bloquear la voz de Sofia en tu cabeza. "Perdoname" le decis.
+
+Le das el amuleto a Zej y él te da la bolsa con oro.
+
+Mientras escapas de la cueva escuchas a tus espaldas los susurros de Zej, y de repente toda la isla empieza a temblar, pero escapas.
+
+Logras subir a tu barco e irte justo cuando la isla empieza a quebrarse, hundiendose entera en el mar, ahora mas espeso y negro que nunca.
+
+Semanas después, tu esposa se recupera, pero por las noches seguis escuchando esos susurros y viendo sombras extrañas mas allá de la Niebla. Definitivamente algo despertó.
+
+**FINAL 2: El Precio a Pagar**
+
+[[InicioTaberna]]
+
+
+:: \ FinalEscapar {"position":"962.5,2300","size":"100,100"}
+<img src="img/escapar.png" width="600">
+
+Apretás el amuleto contra tu pecho. —No te la vas a llevar.
+
+Le tiras la linterna por la cabeza, dandote tiempo para pasar por detras y escapar de la cueva.
+
+Logras subir al barco desesperadamente y emprendes viaje al Este, conoces una isla portuaria que puede servir de refugio. Ya no es seguro volver a casa, no con Zej vivo. El dolor de dejar atras a tu esposa no te lo vas a perdonar nunca. Ahora solo queda cuidar de Sofia una ultima vez.
+
+**FINAL 3: El Guardián Eterno**
+
+[[InicioTaberna]]
+
+
+:: \ LaAparicion {"position":"900,1800","size":"100,100"}
+<img src="img/sofia.png" width="600">
+
+—Sofia. 
+
+Lleva puesta la misma ropa de esa noche y su pelo está empapado.
+
+Tus piernas tiemblan.
+
+—Papá... —su voz suena ahogada, como si hablara desde el fondo del mar—. Está muy oscuro acá abajo. Tengo mucho frío. 
+
+Das un paso al frente, con los ojos llenos de lágrimas, pero ella levanta la mano para detenerte.
+
+—No sigas, papá. Lo que hay ahí atrás es malo. Peor que la muerte. 
+
+La angustia te desgarra por dentro. La ilusión es perfecta, como si la cueva misma estuviera advirtiendote.
+
+[[Caer de rodillas y pedirle perdón -> FinAhogado]]
+[[Cerrar los ojos, aceptar el dolor y negar la ilusión -> CamaraAmuleto]]
+
+
+:: \ LaCornisa {"position":"900,1300","size":"100,100"}
+Con la respiración agitada salís del túnel y llegás a una cornisa de piedra. 
+
+Abajo, se extiende una caverna inmensa iluminada por un resplandor azulino proveniente del fondo de un lago. El agua es negra y parece espesa, pero cruzarla es la unica manera de llegar al otro lado.
+
+El mar ya te sacó demasiado, y la sola idea de sumergirte ahí te recuerda tus peores pesadillas. Pero la cara de tu esposa aparece en tu mente y tenes que avanzar.
+
+[[Bajar por las rocas y entrar al agua negra -> ElLagoHelado]]
+
+
+:: \ LaTraicion {"position":"962.5,2175","size":"100,100"}
+<img src="img/zej.png" width="600">
+
+—Bravo, James.
+
+Parado en la entrada está Zej.
+
+—Sabía que eras el indicado.
+
+Zej extiende su mano. Sobre ella, una bolsa con oro.
+
+—Las almas de ese artefacto son la energía necesaria para despertar a lo que descansa bajo esta isla. Damelo. Por fin habrá paz en este mundo.
+
+Mirás el amuleto. Escuchás la voz de Sofia. Mirás el oro. Pensás en tu esposa.
+
+[[Dar artefacto y obtener el oro. -> FinalEntregar]]
+[[—Nunca. (Escapar) -> FinalEscapar]]
+
+
+:: \ LeerDiario {"position":"737.5,1125","size":"100,100"}
+Las páginas están rígidas por la sangre seca. La letra frenética del capitán habla de "las voces en las profundidades". Menciona algo sobre el amuleto, un ritual y la bestia que duerme, pero la sangre tapa el resto.
+
+Al leer la última línea, el murmullo de la cueva se detiene de golpe. Y entonces, escuchas un llanto familiar.
+
+[[Avanzar hacia la luz del final del túnel -> LaCornisa]]
+
+
+:: \ LosSusurros {"position":"900,1675","size":"100,100"}
+El pasillo se estrecha tanto que apenas podes pasar. La luz de tu linterna parpadea.
+
+Los ruidos de la cueva ya no son solo ruidos, son voces. Y te hablan a vos.
+
+—Nunca pudiste proteger a los tuyos. Le vas a fallar a ella también.
+
+Te tapás los oídos, pero las voces suenan desde adentro de tu propia cabeza. Al llegar al final del pasillo estrecho, la linterna se apaga por completo. 
+
+Y en la penumbra, flotando sobre el suelo de la camara, una figura pequeña y fantasmal te bloquea el paso.
+
+[[Levantar la mirada hacia la figura -> LaAparicion]]
+
+
+:: \ TocarAmuleto {"position":"962.5,2050","size":"100,100"}
+Te acercás al pedestal. El amuleto es un disco de un metal pesado y oscuro, con una gema rojiza en el centro que late como un corazón. Al rozarlo con los dedos, una descarga de frío te recorre el brazo.
+
+Lo agarrás. 
+
+De repente, tu mente se inunda de miles de voces. Gritos, lamentos de marineros arrastrados al fondo del mar. El amuleto no es solo una llave; es una jaula. Pareciera que contiene las almas de aquellos que el mar se llevó.
+
+Y entre todos los gritos, escuchas la voz de Sofia. Está atrapada ahí adentro.
+
+Antes de que puedas procesarlo, unos pasos se escuchan detras tuyo.
+
+[[Darte vuelta -> LaTraicion]]
+
+
+:: InicioTaberna {"position":"900,500","size":"100,100"}
+El olor a madera podrida y ron barato es lo único que te ancla al presente. Dentro, el sonido del laud y los tambores que resuenan en toda la taberna. Afuera, la tormenta que azota los ventanales. Ambos intentan tranquilizar tus pensamientos.
+
+Le das un trago largo a tu jarra. No hay caso, nada logra borrar la imagen de la receta médica que tenés arrugada en el bolsillo de tu abrigo. Los tratamientos para tu esposa son impagables. Como contrabandista, los trabajos escasean, y si no conseguís monedas pronto, la vas a perder a ella también. 
+
+Y no podés soportar otra tumba vacía. No después de lo de Sofia. Todavía la culpa te castiga.
+
+La música se detiene cuando la puerta principal se abre de golpe. Un hombre alto, vestido de traje, entra sacudiéndose las gotas de lluvia. Sus ojos fríos no tardan en notarte. 
+
+Se acerca y, sin pedir permiso, se sienta frente a vos.
+
+[[—Mucha elegancia, pocos modales. Necesitas algo?. -> ElTrato]]
+[[(Ignorarlo y seguir mirando el fondo de tu jarra) -> ElTrato]]
+
+
+:: Perfiles de Personajes {"position":"900,375","size":"100,100"}
+# Protagonista
+
+* Nombre: James.
+* Edad: 50.
+* Oficio: Antes pescador, hoy mercenario maritimo y contrabandista.
+* Trasfondo: Viejo lobo de mar. Frecuenta tabernas para ahogar sus penas en alcohol y escuchar musica que tape sus pensamientos. Debajo de esa pinta descuidada se encuentra un hombre desesperado por salvar la vida de su mujer que enfermó recientemente, y que no se perdonaría otra perdida mas. Su hija falleció hace unos años en el mar mientras pescaban y eso lo atormenta.
+* Actitud: Cascarrabias y de pocas palabras que haría lo que sea por sus seres queridos.
+* Motivaciones:
+	Externas: Conseguir el oro para los medicamentos de su esposa.
+    Internas: Culpa y miedo de volver a fallar como protector.
+* Se conoce?: Si.
+* Viaje de Descubrimiento: Si, el viaje lo va a obligar a enfrentar sus miedos y traumas.
+
+# Antagonista
+
+* Nombre: Zej.
+* Edad: Desconocida.
+* Oficio: Ocultista y coleccionista de antiguedades.
+* Trasfondo: Un hombre que descubrió los secretos del mar y las islas cercanas. Sabe de un amuleto poderoso que abre la puerta a un poder infinito, pero la cueva en la que está lo protege. Si entra, perdería la cordura y la locura se apoderaría de él.
+* Actitud: Educado y con una mirada impredecible.
+* Motivaciones:
+    Externas: Obtener poder absoluto y condenar al mundo a la oscuridad eterna.
+    Internas: Obtener el amuleto con ayuda de James.
+* Se conoce?: Si.
+* Viaje de Descubrimiento: No.
+
+# Guardian del Umbral
+
+* Nombre: Sofia.
+* Edad: 8.
+* Oficio: Aparicion.
+* Trasfondo: Falleció ahogada en un accidente. La aparición en la cueva es por la magia antigua del lugar, que materializa las peores pesadillas de la persona para detenerla de cualquier forma y asi no obtener el amuleto.
+* Actitud: Triste y manipuladora.
+* Motivaciones:
+    Externas: Proteger el camino hacia el amuleto.
+    Internas: Hacerlo sentir culpable a James de su muerte para alejarlo.
+* Se conoce?: No, es una proyeccion.
+* Viaje de Descubrimiento: No.
+
+[[InicioTaberna]] 
